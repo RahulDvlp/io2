@@ -61,30 +61,30 @@ p{
 }
 .castle2{
   display: inline-block;
-  position: absolute;
-  right: 0;
-  top: 215px;
+  position: relative;
   height: 400px;
+  width: 400px;
+
 }
 
 .pro{
   text-decoration: underline;
 }
-.queen{
+/* .queen{
   position: absolute;
   width: 40px;
   height: 60px;
   right: 175px;
   top: 433px;
   border-radius: 10px;
-}
-.pic-mario{
+} */
+/* .pic-mario{
   position: absolute;
   width: 100px;
   height: 100px;
   left: 789px;
   top: 520px;
-}
+} */
 .mario{
   position: absolute;
   width: 60px;
@@ -92,13 +92,13 @@ p{
   top: 130px;
   left: 435px;
 }
-.minecraft{
+/* .minecraft{
   position: absolute;
   height: 300px;
   width: 300px;
   right: 100px;
   top: 450px;
-}
+} */
 
 .top-cloud{
   position: absolute;
@@ -107,6 +107,13 @@ p{
   top: 40px;
   height: 70px;
   width: 70px;
+}
+.bottom-cloud{
+  position: absolute;
+  top: 300px;
+  height: 70px;
+  width: 70px;
+  left: 190px;
 }
 
 .middle{
